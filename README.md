@@ -1,10 +1,10 @@
-# 🧊 Refrigerador Inteligente IoT
+# Refrigerador Inteligente IoT
 
 Proyecto académico de **Internet de las Cosas (IoT)** desarrollado con **Arduino**, orientado al **monitoreo, seguridad y control remoto** de un refrigerador mediante sensores y comunicación WiFi.
 
 ---
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este sistema permite supervisar en tiempo real:
 
@@ -19,7 +19,7 @@ Además, genera **alarmas locales** (sonoras y visuales) ante condiciones de rie
 
 ---
 
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 * **Microcontrolador:** Arduino
 * **Sensores:**
@@ -38,7 +38,7 @@ El sistema sigue una arquitectura **Edge + Cloud**, donde Arduino actúa como no
 
 ---
 
-## ⚙️ Funcionalidades Principales
+## Funcionalidades Principales
 
 * Lectura continua de sensores ambientales
 * Detección de fugas de gas con alarma automática
@@ -50,7 +50,7 @@ El sistema sigue una arquitectura **Edge + Cloud**, donde Arduino actúa como no
 
 ---
 
-## 🔌 Asignación de Pines
+## Asignación de Pines
 
 | Componente         | Pin |
 | ------------------ | --- |
@@ -65,7 +65,7 @@ El sistema sigue una arquitectura **Edge + Cloud**, donde Arduino actúa como no
 
 ---
 
-## 🌐 Envío de Datos a ThingSpeak
+##  Envío de Datos a ThingSpeak
 
 Los datos se envían mediante una petición **HTTP GET** utilizando comandos AT del ESP8266.
 
@@ -81,7 +81,7 @@ Los datos se envían mediante una petición **HTTP GET** utilizando comandos AT 
 
 ---
 
-## 🧠 Conceptos Aplicados
+##  Conceptos Aplicados
 
 * Programación no bloqueante con `millis()`
 * Manejo de estados
@@ -92,7 +92,7 @@ Los datos se envían mediante una petición **HTTP GET** utilizando comandos AT 
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 Refrigerador-IoT/
@@ -102,7 +102,7 @@ Refrigerador-IoT/
 
 ---
 
-## 🚀 Requisitos
+## Requisitos
 
 * Arduino IDE
 * Módulo ESP8266
@@ -114,7 +114,7 @@ Refrigerador-IoT/
 
 ---
 
-## 📖 Uso
+## Uso
 
 1. Clonar el repositorio
 2. Configurar credenciales WiFi y API Key de ThingSpeak
@@ -124,7 +124,7 @@ Refrigerador-IoT/
 
 ---
 
-## 🎓 Contexto Académico
+## Contexto Académico
 
 Este proyecto fue desarrollado con fines **educativos**, aplicando conceptos de:
 
@@ -135,7 +135,7 @@ Este proyecto fue desarrollado con fines **educativos**, aplicando conceptos de:
 
 ---
 
-## 👨‍💻 Autores
+## Autores
 
 **Antony Cisneros**
 **David Cajamarca**
